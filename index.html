@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="google" content="notranslate"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <audio id="audiofileMove" preload="auto">
+          <source src="/sounds/zapsplat_cartoon_pop_small_002_54606.mp3" />
+          </audio>
+          <audio id="audiofileMove2" preload="auto">
+            <source src="/sounds/zapsplat_cartoon_pop_small_001_54699.mp3" />
+            </audio>
+          <audio id="audiofileWin" preload="auto">
+            <source src="/sounds/noisecreations_SFX-NCFREE02_Flabby-Burd.mp3" />
+            </audio>
+            <audio id="audiofileRestart" preload="auto">
+              <source src="/sounds/zapsplat_cartoon_bubble_pop_007_40279.mp3" />
+              </audio>
+              <audio id="audiofileDraw" preload="auto">
+                <source src="/sounds/zapsplat_cartoon_pop_002_46048.mp3" />
+                </audio>
+                <audio id="audiofileBotToogle" preload="auto">
+                  <source src="/sounds/zapsplat_cartoon_pop_001_46047.mp3" />
+                  </audio>
+                  <audio id="audiofileBotLose" preload="auto">
+                    <source src="/sounds/zapsplat_multimedia_game_sound_percussive_negative_lose_fail_002_63678.mp3" />
+                    </audio>
+        <title id="myTitle">Template</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="page-header" class="bg-white text-black col-sm-12">
+                <h1 id="myHeading1" class="text-center"></h1>
+            </header>
+
+            <div>
+                <div class="jumbotron">
+                    <div id="buttonsGame"   class="col-md-12 text-center">
+
+                        <div id='row1'>
+                          <input type="button" value=" "  id="btn1row1" class="btnCss"/>
+                          <input type="button" value=" "  id="btn2row1" class="btnCss"/>
+                          <input type="button" value=" "  id="btn3row1" class="btnCss"/>
+                        </div>
+                        <div id='row2'>
+                          <input type="button" value=" "  id="btn1row2" class="btnCss"/>
+                          <input type="button" value=" "  id="btn2row2" class="btnCss"/>
+                          <input type="button" value=" "  id="btn3row2" class="btnCss"/>
+                        </div>
+                        <div id='row3'>
+                          <input type="button" value=" "  id="btn1row3" class="btnCss"/>
+                          <input type="button" value=" "  id="btn2row3" class="btnCss"/>
+                          <input type="button" value=" "  id="btn3row3" class="btnCss"/>
+                        </div>
+
+                        <div class="jumbotron">
+                          <div id="output2"></div>
+                          <div id="outputWin"></div>
+                          <div id="error"></div>
+                          <div id="divBotSwitch" class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Play with Bot</label>
+                          </div>
+                          <div id="regler-diff">
+                          <input for="rangeDif" type="range" class="form-range" id="rangeDif" value="1" min="0" max="2" step="1"><div id="outputRange">Mittel</div>
+                        </datalist>
+
+                      </div>
+                          <button  type="button" id="restart" class="btn btn-dark">Restart</button>
+                      </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+         <!-- Copyright -->
+         <footer id="footer-pad" class="text-center text-white" style="background-color: #21081a;">
+          <!-- Grid container -->
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgb(32,37,41) ;">
+            © 2020 Copyright:
+            <a class="text-white" href="https://senkvalentin.com/">senkvalentin.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+  <!-- Copyright -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

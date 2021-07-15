@@ -1,0 +1,125 @@
+html {
+  font-family: 'Source Sans Pro', Verdana, Arial, Helvetica, sans-serif;
+}
+#output {
+  color: green;
+}
+
+div.jumbotron{
+  background-color: #fff;
+  
+}
+
+#error {
+  color: #B00020;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2.3em;
+}
+
+.commentheader {
+  color: rgb(90, 15, 38);
+}
+
+#output2{
+  font-family: 'Inconsolata', monospace;
+  font-size: 2.3em;
+  margin-top: -1em;
+}
+
+#restart{
+  margin-top: 0.8em;
+  width: 15.4em;
+  font-size: 2em;
+  font-family: 'Inconsolata', monospace;
+}
+
+#outputWin{
+  color: #6A994E;
+  font-size: 2.3em;
+  font-family: 'Inconsolata', monospace;
+}
+
+.btnCss{
+  height: 5em;
+  width: 5em;
+  font-size: 2em;
+  background-color: #fff;
+  margin-bottom: 0.15em;
+  border-color: rgb(32,37,41);
+}
+
+#buttonsGame {
+  margin-top: -2em;
+}
+
+.btnCss:hover{
+  background: rgb(32,37,41);
+  color: #fff;
+}
+
+h1{
+  padding-top: 0.7em;
+  font-size: 2em;
+  font-family: 'Inconsolata', monospace;
+}
+
+#divBotSwitch{
+  padding-top: 0.6em;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+}
+
+#rangeDif {
+  width: 10em;
+}
+
+#regler-diff {
+  padding-top: 1em;
+}
+
+#outputRange {
+  margin-top: -0.3em;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 50em){
+  .btnCss{
+    height: 3.4em;
+    width: 3.4em;
+    font-size: 1.7em;
+    margin-bottom: 0.15em;
+  }
+
+  #buttonsGame{
+    padding-top: 4em;
+  }
+
+  #outputWin{
+    font-size: 2.4em;
+  }
+
+  #output2{
+    font-size: 1.5em;
+  }
+
+  #restart{
+    margin-top: 0.2em;
+    width: 8em;
+    font-size: 2em;
+  }
+
+  #divBotSwitch{
+    padding-top: 2em;
+    font-size: 1em;
+  }
+
+  #error {
+    font-size: 2.4em;
+  }
+
+  #outputRange {
+    margin-top: -0.3em;
+    font-size: 1em;
+  }
+}
